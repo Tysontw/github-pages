@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>德寶的作品集</title>
+<style>
+body {
+font-family: "Arial", sans-serif;
+margin: 0;
+padding: 0;
+background: linear-gradient(to bottom, #ffccff, #ccffff);
+color: #333;
+}
+header {
+text-align: center;
+padding: 20px;
+background-color: #ff99cc;
+color: white;
+}
+header h1 {
+font-size: 2.5em;
+}
+nav {
+text-align: center;
+margin: 20px 0;
+}
+nav a {
+text-decoration: none;
+color: white;
+background-color: #ff66cc;
+padding: 10px 20px;
+margin: 5px;
+border-radius: 25px;
+font-size: 1.2em;
+}
+nav a:hover {
+background-color: #ff33aa;
+}
+section {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.about-me img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 20px;
+}
+.grid img {
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+text-align: center;
+padding: 10px;
+background-color: #ff99cc;
+color: white;
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>德寶的作品集</h1>
+<p>歡迎來到我的小天地！</p>
+</header>
+<nav>
+<a href="#about">關於德寶</a>
+<a href="#works">作品</a>
+<a href="#contact">聯絡方式</a>
+</nav>
+<section id="about" class="about-me">
+<h2>關於德寶</h2>
+<img src="https://via.placeholder.com/100" alt="德寶的頭像">
+<p>你好！我是德寶，一位熱愛創作與分享的小夥伴。這裡是我展示我的作品和故事的地方，希望你會喜歡！</p>
+</section>
+<section id="works">
+<h2>作品</h2>
+<div class="grid">
+<img src="https://via.placeholder.com/150" alt="作品1">
+<img src="https://via.placeholder.com/150" alt="作品2">
+<img src="https://via.placeholder.com/150" alt="作品3">
+<img src="https://via.placeholder.com/150" alt="作品4">
+</div>
+</section>
+<section id="contact">
+<h2>聯絡方式</h2>
+<p>如果你喜歡我的作品，歡迎聯繫我！</p>
+<p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+</section>
+<footer>
+<p>© 2024 德寶的作品集. 保留所有權利.</p>
+</footer>
+</body>
+</html>
